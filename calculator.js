@@ -44,6 +44,10 @@ function checkDivisionByZero(string) {
 }
 
 function calculateResult() {
+  if (checkError(document.getElementById("result").value)) {
+    return;
+  }
+
   let equation = document.getElementById("result").value;
 
   let checkedEquation = equation.replace(/[^-\d/*+.]/g, "");
