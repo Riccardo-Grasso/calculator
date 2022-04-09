@@ -1,0 +1,38 @@
+td {
+  width: 25%;
+  padding: 5px;
+}
+
+input {
+  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+}
+
+.operation-button {
+  background-color: lightslategray;
+  color: white;
+  font-weight: 800;
+}
+
+.clear-button {
+  background-color: rgb(197, 9, 9);
+  color: white;
+}
+
+.cancel-button {
+  background-color: rgb(255, 92, 32);
+  color: white;
+}
+
+.text-orange {
+  color: rgb(255, 92, 32);
+}
+
+.text-red {
+  color: rgb(197, 9, 9);
+}
+
+.manual-container ul {
+  list-style: none;
+}
